@@ -2,15 +2,15 @@
 This project uses machine learning to predict suitable crops based on input parameters like soil type, temperature, and rainfall.
 
 ## Project Structure
-├── crop.py # Core logic for crop recommendation
-├── ml.py # ML model training and prediction code
-├── model.pkl # Trained machine learning model
-├── model.zip # Zipped version of the model
-├── crop_prediction_model_one.csv # Dataset used for training/testing
-├── config.toml # Configuration file for the app
-├── requirements.txt # Python dependencies
-├── runtime.txt # Runtime environment definition
-└── README.md # Project documentation
+crop.py # Core logic for crop recommendation
+ml.py # ML model training and prediction code
+model.pkl # Trained machine learning model
+model.zip # Zipped version of the model
+crop_prediction_model_one.csv # Dataset used for training/testing
+config.toml # Configuration file for the app
+requirements.txt # Python dependencies
+runtime.txt # Runtime environment definition
+README.md # Project documentation
 
 ## Model Description
 - The model is trained using the dataset `crop_prediction_model_one.csv`.
@@ -47,6 +47,7 @@ Example config.toml:
 host = "0.0.0.0"
 port = 8000
 debug = true
+
 **Requirements**
 Install all required libraries with:
 pip install -r requirements.txt
